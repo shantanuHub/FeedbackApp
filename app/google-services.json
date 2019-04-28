@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "543015972829",
+    "firebase_url": "https://ipsfeedbacking.firebaseio.com",
+    "project_id": "ipsfeedbacking",
+    "storage_bucket": "ipsfeedbacking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543015972829:android:048fd6f84213d1c3",
+        "android_client_info": {
+          "package_name": "com.example.android.feedbackapp_ipscollege"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543015972829-f09us2d7mjlh5e5874759vco4fsct93q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.feedbackapp_ipscollege",
+            "certificate_hash": "2bd5dbcf124b93754b5c6cc0419399dbfd958b2c"
+          }
+        },
+        {
+          "client_id": "543015972829-2efei7q5v52enb3fmc89oass35v05v46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBIgKa4-AbInx_qtWwkIkk9I0J0wx23SQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543015972829-2efei7q5v52enb3fmc89oass35v05v46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

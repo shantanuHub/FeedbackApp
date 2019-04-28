@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2page">
+
+
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="227dp"
+        android:textColor="#000"
+        android:textSize="28sp"
+        tools:text="Vineet Raj" />
+
+    <ImageView
+        android:id="@+id/mainimage"
+        android:layout_width="133dp"
+        android:layout_height="124dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="254dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="24dp"
+        app:srcCompat="@drawable/vineet" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="94dp"
+        android:textColor="#000"
+        android:text="Rate Performance "
+        android:textSize="30sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="245dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="98dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="245dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/ratingBar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="100dp"
+        android:text="Class Interaction"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="245dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="98dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="245dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/ratingBar1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="100dp"
+        android:text="Class Behaviour"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="245dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="98dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="245dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/ratingBar2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="100dp"
+        android:text="Teaching Skills"
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        android:layout_width="245dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="98dp" />
+
+</RelativeLayout>
